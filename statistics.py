@@ -1,10 +1,11 @@
 import json
-import pandas as pd
-import numpy as np
+
 import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
-import seaborn as sns
+import numpy as np
+import pandas as pd
 import scipy.stats as stats
+import seaborn as sns
+
 
 def read_json_file(file_path):
     with open(file_path, 'r') as file:

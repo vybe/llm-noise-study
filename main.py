@@ -75,14 +75,15 @@ questions_json = """{
 ]
 }"""
 
-import numpy as np
-import openai
 import json
-from tqdm import tqdm
 import time
 
+import numpy as np
+import openai
+from tqdm import tqdm
+
 # Set up OpenAI API credentials
-openai.api_key = "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"
+openai.api_key = ""
 SYSTEM = "system"
 USER = "user"
 ASSISTANT = "assistant"

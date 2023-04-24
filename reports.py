@@ -1,11 +1,10 @@
 import pandas as pd
-from reportlab.lib.pagesizes import landscape, A4
 from reportlab.lib import colors
+from reportlab.lib.pagesizes import landscape, A4
+from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.units import inch
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer
-from reportlab.lib.styles import getSampleStyleSheet
 
-import statistics
 
 def create_student_report(student_answers, question_metadata, df_question_avg_35, df_question_avg_4, output_file):
     # Process data and create the report table
